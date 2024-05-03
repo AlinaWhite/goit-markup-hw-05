@@ -541,3 +541,53 @@ margin-bottom: 16px;
 .footer-link-icon3 {
     line-height: 0;
 }
+
+.form-box {
+    border: none;
+    margin-left: 80px;
+}
+
+.sub-box {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #ffffff;
+margin-bottom: 16px;
+
+}
+
+.sub-button {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 24px;
+    
+    height: 40px;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffffff;
+    }
+
+.paper-plene-icon {
+    margin-left: 16px;
+}
+
+.form-input {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 264px;
+   height: 40px;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+margin-right: 23px;
+padding: 8px 0px 8px 16px;
+}
+
+.input-btn {
+    display: flex;
+}
+
+
