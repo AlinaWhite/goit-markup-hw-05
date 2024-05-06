@@ -42,6 +42,57 @@
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
             <button class="order-service-btn" type="button">Order Service</button>
             </div>
+            
+            <div class="backfont-modul is-open">
+            <div class="modul-block">
+            <button class="btn-close-modul" type="button">
+                <svg class="btn-close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                </svg>
+            </button>
+            <p class="modul-block-name">Leave your contacts and we will call you back</p>
+            <form class="input-all-lines">
+                <div class="box-input">
+                    <label for="name-line" class="name-line">Name</label>
+                    <div class="line-input-name">
+                        <input class="input-nameline" type="text" name="Name" id="name-line" pattern="[a-zA-Z]+" required/>
+                        <svg class="name-input-icon" width="12" height="12" >
+                            <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="box-input">
+                    <label class="name-line" for="phone-line">Phone</label>
+                    <div class="line-input-phone">
+                        <input class="input-nameline input-phone" type="tel" name="Phone" id="phone-line" pattern="[0-9]+" required/>
+                        <svg class="phone-input-icon" width="13" height="13">
+                            <use href="./images/icons.svg#icon-Vector"></use>
+                        </svg>
+                    </div>
+                </div>              
+                <div class="box-input">
+                    <label class="name-line" for="email-line">Email</label>
+                    <div>
+                    <input class="input-nameline input-email" type="email" name="Email" id="email-line" required/>
+                    <svg width="16" height="12">
+                        <use href="./images/icons.svg#icon-Vector-1"></use>
+                    </svg>
+                    </div>
+                </div>
+                <div class="box-input">
+                    <label class="name-line" for="textera-line">Comment</label>
+                    <textarea class="textela-input" type="text" id="textera-line" name="Comment"></textarea>
+                    
+                </div>
+                <div class="chek-privacy-box">
+                    <input class="Privacy-input" type="checkbox" id="privacy-click" name="Privacy accept" value="true" required/>
+                    <label class="privecy-line-name" id="privacy-click">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+                </div>
+                <button>Send</button>
+            </form>
+            
+        </div>
         </section>
 
        <!--Benefits-->
@@ -419,9 +470,9 @@
     <form class="form-box">
     <legend class="sub-box">Subscribe</legend>
     <div class="input-btn">
-        <input class="form-input" name="user-email" type="email" placeholder="E-mail" />
+        <input class="form-input" name="user-email" type="email" placeholder="E-mail"/>
         <div class="btn-box-form">
-            <button class="sub-button" type="submit">Subscribe</button>
+            <button class="sub-button" type="button">Subscribe</button>
             <svg class="paper-plene-icon" width="24" height="24"><use href="./images/icons.svg#icon-paper-plane"></use></svg>
         </div>
     </div>
