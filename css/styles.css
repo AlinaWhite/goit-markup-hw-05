@@ -700,6 +700,11 @@ margin-bottom: 4px;
 
 .box-input {
     display: block;
+    margin-bottom: 8px;
+}
+
+.box-input-textera {
+    display: block;
     margin-bottom: 16px;
 }
 
@@ -737,25 +742,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-.phone-input-icon {
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-}
-
 .input-nameline:focus + .phone-input-icon {
     fill: #4d5ae5;
    }
 
-.email-input-icon {
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-}
+
 
 .input-nameline:focus + .email-input-icon {
     fill: #4d5ae5;
@@ -832,6 +823,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     background-color: #404bbf;
     border-color: #404bbf;
     fill: #f4f4fd;
+    border: none; 
  }
 
  .Privacy-input:focus + .privecy-line-name .new-chek-box {
