@@ -821,14 +821,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 .user-privacy:checked + .privecy-line-name .new-chek-box {
     background-color: #404bbf;
-    border-color: #404bbf;
     fill: #f4f4fd;
-   
- }
-
- .user-privacy:checked .new-chek-box {
-   border: none;
-   
+    border: none; 
  }
 
 .send-button {
